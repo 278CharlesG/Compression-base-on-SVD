@@ -28,7 +28,7 @@ It Measures the percentage of data retained in the truncated matrices relative t
 Remember to put an image in the same folder ,and  add the name to the variable in program.
 ```bash
 img = plt.imread('sample.jpg')
-
+```
 The program will save ten of the compressed image , from Eigenvalues 1 to 500 so you can see the differences, it will also show the compression ratio of each images
 
 ### Code Comments
