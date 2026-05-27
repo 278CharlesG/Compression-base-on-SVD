@@ -17,4 +17,6 @@ $$A = U \Sigma V^T$$
 - **$\Sigma$ (Singular Value Diagonal Matrix)**: Dimension $m \times n$ (or an array of length $r$ in code implementation). The values along the diagonal are called **singular values**, strictly sorted in descending order. They represent the energy weight of each feature component.
 - **$V^T$ (Right Singular Matrix Transposed)**: Dimension $n \times n$ (or $r \times n$ in economic SVD). Each row (row vector) represents the geometric features of the image in the **水平方向** (acting as a column contrast weight scale).
 
-# Compression Ratio:                                                        $$\text{Ratio} = \frac{k \times (1 + m + n)}{m \times n} \times 100\%$$
+## Compression Ratio:                  
+
+$$\text{Ratio} = \frac{k \times (1 + m + n)}{m \times n} \times 100\%$$
