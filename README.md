@@ -1,4 +1,4 @@
-# Image Compression using SVD (Singular Value Decomposition)
+# Image Compression program using SVD
 
 [![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
@@ -7,7 +7,7 @@ This project demonstrates digital image compression implemented via **SVD (Singu
 
 ---
 
-## 📌 Core Principles
+## Core Principles
 
 In computing, a single-channel grayscale image is essentially an $m \times n$ two-dimensional matrix $A$. SVD decomposes this matrix into the product of three distinct matrices:
 
@@ -21,4 +21,9 @@ $$A = U \Sigma V^T$$
 
 $$\text{Ratio} = \frac{k \times (1 + m + n)}{m \times n} \times 100\%$$
 
-Compression Ratio: Measures the percentage of data retained in the truncated matrices ($U_k$, $\Sigma_k$, and $V_k^T$) relative to the original image size; a lower percentage indicates higher data savings and greater storage efficiency
+It Measures the percentage of data retained in the truncated matrices relative to the original image size, a lower percentage indicates higher data savings and greater storage efficiency
+
+## To Run The Program
+
+```bash
+python.py
