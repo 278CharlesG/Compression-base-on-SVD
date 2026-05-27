@@ -20,3 +20,5 @@ $$A = U \Sigma V^T$$
 ## Compression Ratio:                  
 
 $$\text{Ratio} = \frac{k \times (1 + m + n)}{m \times n} \times 100\%$$
+
+Compression Ratio: Measures the percentage of data retained in the truncated matrices ($U_k$, $\Sigma_k$, and $V_k^T$) relative to the original image size; a lower percentage indicates higher data savings and greater storage efficiency
