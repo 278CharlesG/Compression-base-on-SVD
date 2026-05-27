@@ -13,9 +13,9 @@ In computing, a single-channel grayscale image is essentially an $m \times n$ tw
 
 $$A = U \Sigma V^T$$
 
-- **$U$ (Left Singular Matrix)**: Dimension $m \times m$ (or $m \times r$ in economic SVD). Each column (column vector) represents the geometric features of the image in the **vertical direction** (acting as a row contrast weight scale).
-- **$\Sigma$ (Singular Value Diagonal Matrix)**: Dimension $m \times n$ (or an array of length $r$ in code implementation). The values along the diagonal are called **singular values**, strictly sorted in descending order. They represent the energy weight of each feature component.
-- **$V^T$ (Right Singular Matrix Transposed)**: Dimension $n \times n$ (or $r \times n$ in economic SVD). Each row (row vector) represents the geometric features of the image in the **水平方向** (acting as a column contrast weight scale).
+- **$U$ (Left Singular Matrix)**: Dimension $m \times m$. Each column  represents the geometric features of the image in the **vertical direction** (acting as a row contrast weight scale).
+- **$\Sigma$ (Singular Value Diagonal Matrix)**: Dimension $m \times n$ . The values along the diagonal are called **singular values**, strictly sorted in descending order. They represent the energy weight of each feature component.
+- **$V^T$ (Right Singular Matrix Transposed)**: Dimension $n \times n$ . Each row  represents the geometric features of the image in the **horizontal direction** (acting as a column contrast weight scale).
 
 ## Compression Ratio:                  
 
